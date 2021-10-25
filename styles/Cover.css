@@ -1,0 +1,113 @@
+.cover{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.coverTop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.covertext, .coverimages{
+    width: 35%;
+}
+
+.covertext{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.socialsCover{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcon{
+    width: 20px;
+    height: 20px;
+    color: rgb(46, 46, 46);
+}
+
+.coverimages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 70px;
+}
+
+.subtitle{
+    font-size: 25px;
+    width: 90%;
+}
+
+/* .coverimg{
+    width: 300px;
+    height: 300px;
+} */
+
+.downarrow{
+    width: 25px;
+    height: 25px;
+}
+
+.downarrowdiv{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    bottom: 40px;
+    background-color:#EFEFEF;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 706px) and (max-height: 650px){
+    .downarrowdiv{
+        display: none;
+        height: 0;
+    }
+
+    .cover{
+        height: 650px;
+    }
+}
+
+
+@media screen and (max-width: 765px){
+    .downarrowdiv{
+        display: none;
+    }
+
+    .cover{
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .covertext, .coverimages{
+        text-align: center;
+        width: 100%;
+    }
+
+    .covertext{
+        align-items: center;
+    }
+    
+    .coverTop{
+        flex-direction: column;
+    }
+}

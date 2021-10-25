@@ -1,0 +1,26 @@
+.myNavBar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+    padding: 8px;
+    top: 0;
+    right: 0;
+    left: 0;    
+    position: fixed;
+}
+
+.fixed-top{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px rgb(182, 182, 182) solid;
+}
+
+.links{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: inherit;
+}

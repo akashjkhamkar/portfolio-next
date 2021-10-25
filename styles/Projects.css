@@ -1,0 +1,31 @@
+/* .projectImg{
+    max-width: 80%;
+} */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+.project{
+    border: 1px rgb(182, 182, 182) solid;
+    border-radius: 5px;
+
+    background: rgb(27, 26, 26);
+    color: rgb(233, 233, 233);
+}
+
+.projectsH1{
+    text-align: center;
+}
+
+.projectHeading{
+    font-size: 35px;
+}
+
+.softwareContainer{
+    margin-top: 50px;
+}

@@ -1,0 +1,22 @@
+* {
+    font-size: 20px;
+}
+
+.megacontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subcontainer{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+@media screen and (max-width: 800px) {
+    .subcontainer{
+        width: 95%;
+    }
+}

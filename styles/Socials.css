@@ -1,0 +1,9 @@
+.socials{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.socialIcon{
+    color: white;
+}

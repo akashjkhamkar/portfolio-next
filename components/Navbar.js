@@ -28,8 +28,10 @@ const NavBar = () => {
             setPage(2);
         }else if(path === "/software"){
             setPage(1);
-        }else{
+        }else if(path === "/"){
             setPage(0);
+        }else{
+            setPage(3);
         }
     }, [path])
 

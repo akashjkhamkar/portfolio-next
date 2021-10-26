@@ -8,12 +8,12 @@ const Stack = () => {
         {
             id: 1,
             name: "Frameworks",
-            list: ["React & Redux", "Express", "Node.js", "Flask", "Mongoose (mongodb)"]
+            list: ["React & Redux", "Next.js", "Express", "Node.js", "Flask", "Mongoose (mongodb)"]
         },
         {
             id: 2,
             name: "Other",
-            list: ["Linux", "Git", "SQL", "Material Ui", "Bootstrap", "Android", "Figma"]
+            list: ["Linux", "Git", "SQL", "Material Ui", "Bootstrap", "SEO", "Android", "Figma"]
         },
         {
             id: 3,

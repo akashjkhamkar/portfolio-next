@@ -12,8 +12,8 @@ const Layout = ({children}) => {
           <div className="subcontainer">
               <NavBar/>
               {children}
-              <Footer/>
           </div>
+          <Footer/>
         </div>
       </>
     )

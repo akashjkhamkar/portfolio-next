@@ -1,10 +1,10 @@
 const Blogs = () => {
     return (
-        <div className="contentContainer">
-            <div className="comingSoon">
-                <h1>Coming soon...</h1>
-            </div>
-        </div>)
+        <div className="comingSoon">
+            <h1>Coming soon...</h1>
+        </div>
+    )
 }
+
 
 export default Blogs;

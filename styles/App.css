@@ -6,10 +6,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .subcontainer{
     width: 80vw;
+    flex-grow: 1;
+    height: max-content;
     display: flex;
     flex-direction: column;
     gap: 20px;

@@ -18,7 +18,7 @@ const Layout = ({children}) => {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Akash Khamkar" />
           <meta property="og:url" content="https://www.akashkhamkar.in/" />
-          <meta property="og:image" itemProp="image" content="/siteimg.png"/>
+          <meta property="og:image" itemProp="image" content="https://www.akashkhamkar.in/siteimg.png"/>
 
         </Head>
         <div className="megacontainer">

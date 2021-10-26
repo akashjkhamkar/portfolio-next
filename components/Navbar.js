@@ -51,24 +51,29 @@ const NavBar = () => {
 
     return (
         <div className={navBarClass}>
-            <Link href="/" passHref={true}>
-                <Button className="links" onClick={() => setPage(0)} style={page === 0 ? specialLink : myNavLinksTextColor}>
-                    About
-                </Button>
-            </Link>
+            <Button className="linksbutton" onClick={() => setPage(0)} style={page === 0 ? specialLink : myNavLinksTextColor}>
+                <Link href="/" passHref={true}>
+                    <a className="navlink">
+                        About
+                    </a>
+                </Link>
+            </Button>
 
-            <Link href="/software" passHref={true}>
-                <Button className="links" onClick={() => setPage(1)} style={page === 1 ? specialLink : myNavLinksTextColor}>
-                    software
-                </Button>
-            </Link>
+            <Button className="linksbutton" onClick={() => setPage(1)} style={page === 1 ? specialLink : myNavLinksTextColor}>
+                <Link href="/software" passHref={true}>
+                    <a className="navlink">
+                        software
+                    </a>
+                </Link>
+            </Button>
 
-            <Link href="/blogs" passHref={true}>
-                <Button className="links" onClick={() => setPage(2)} style={page === 2 ? specialLink : myNavLinksTextColor}>
-                    blogs
-                </Button>
-            </Link>
-
+            <Button className="linksbutton" onClick={() => setPage(2)} style={page === 2 ? specialLink : myNavLinksTextColor}>
+                <Link href="/blogs" passHref={true}>
+                    <a className="navlink">
+                        blogs
+                    </a>
+                </Link>
+            </Button>
         </div>
     )
 }

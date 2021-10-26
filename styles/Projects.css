@@ -21,6 +21,11 @@
     gap: 30px;
 }
 
+.softwareinvite > a {
+    color: rgb(0, 240, 180);
+    text-decoration: underline;
+}
+
 
 .project{
     border: 1px rgb(182, 182, 182) solid;

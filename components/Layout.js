@@ -22,7 +22,7 @@ const Layout = ({children}) => {
           <meta property="og:type" content="website"/>
           <meta property="og:title" content="Akash Khamkar"/>
           <meta property="og:description" content="Hi I am Akash, I am Software Developer. This is my portfolio website. Here you can find updates related to me, my projects and blogs. "/>
-          <meta property="og:image" content="https://akashkhamkar.in/siteimg.png"/>
+          <meta property="og:image" content="https://akashkhamkar.in/og.png"/>
 
           {/* <!-- Twitter Meta Tags --> */}
           <meta name="twitter:card" content="summary_large_image"/>
@@ -30,7 +30,7 @@ const Layout = ({children}) => {
           <meta property="twitter:url" content="https://akashkhamkar.in/"/>
           <meta name="twitter:title" content="Akash Khamkar"/>
           <meta name="twitter:description" content="Hi I am Akash, I am Software Developer. This is my portfolio website. Here you can find updates related to me, my projects and blogs. "/>
-          <meta name="twitter:image" content="https://akashkhamkar.in/siteimg.png"/>
+          <meta name="twitter:image" content="https://akashkhamkar.in/og.png"/>
 
           {/* <!-- Meta Tags Generated via https://www.opengraph.xyz --> */}
                 

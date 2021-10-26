@@ -51,29 +51,29 @@ const NavBar = () => {
 
     return (
         <div className={navBarClass}>
-            <Button className="linksbutton" onClick={() => setPage(0)} style={page === 0 ? specialLink : myNavLinksTextColor}>
-                <Link href="/" passHref={true}>
-                    <a className="navlink">
-                        About
-                    </a>
-                </Link>
-            </Button>
+            <Link href="/" passHref={true}>
+                <Button className="linksbutton" onClick={() => setPage(0)} style={page === 0 ? specialLink : myNavLinksTextColor} passHref>
+                        <a className="navlink">
+                            About
+                        </a>
+                </Button>
+            </Link>
 
-            <Button className="linksbutton" onClick={() => setPage(1)} style={page === 1 ? specialLink : myNavLinksTextColor}>
-                <Link href="/software" passHref={true}>
+            <Link href="/software" passHref={true}>
+                <Button className="linksbutton" onClick={() => setPage(1)} style={page === 1 ? specialLink : myNavLinksTextColor}>
                     <a className="navlink">
                         software
                     </a>
-                </Link>
-            </Button>
+                </Button>
+            </Link>
 
-            <Button className="linksbutton" onClick={() => setPage(2)} style={page === 2 ? specialLink : myNavLinksTextColor}>
-                <Link href="/blogs" passHref={true}>
+            <Link href="/blogs" passHref={true}>
+                <Button className="linksbutton" onClick={() => setPage(2)} style={page === 2 ? specialLink : myNavLinksTextColor}>
                     <a className="navlink">
                         blogs
                     </a>
-                </Link>
-            </Button>
+                </Button>
+            </Link>
         </div>
     )
 }

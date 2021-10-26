@@ -3,8 +3,6 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 1px rgb(182, 182, 182) solid;
-    border-radius: 5px;
     padding: 10px;
 }
 

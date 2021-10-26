@@ -3,6 +3,8 @@
     width: 100% !important;
     position: relative !important;
     height: unset !important;
+    border: 1px;
+    border-radius: 5px;
 }
   
 .unset-img {
@@ -22,7 +24,7 @@
 }
 
 .softwareinvite > a {
-    color: rgb(0, 240, 180);
+    color: rgb(0, 175, 93);
     text-decoration: underline;
 }
 
@@ -30,8 +32,8 @@
 .project{
     border: 1px rgb(182, 182, 182) solid;
     border-radius: 5px;
-    background: rgb(27, 26, 26);
-    color: rgb(233, 233, 233);
+    /* background: rgb(27, 26, 26);
+    color: rgb(233, 233, 233); */
 }
 
 .projectsH1{

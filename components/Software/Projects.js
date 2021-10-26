@@ -88,12 +88,10 @@ const Entry = ({entry}) => {
             </div>
 
             <div className="contentdiv">
-                <div style={{position:"relative", "width": "70%", "height":"fit-content" }}>
+                <div className="unset-img">
                     <Image
-                    layout="responsive"
-                    height={25}
-                    width={40}
-                    className="contentImg projectImg" src={img} alt=""/>
+                    layout="fill"
+                    className="contentImg custom-img" src={img} alt=""/>
                 </div>
             </div>
         </div>

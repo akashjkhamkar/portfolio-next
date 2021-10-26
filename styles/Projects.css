@@ -1,6 +1,18 @@
-/* .projectImg{
-    max-width: 80%;
-} */
+.custom-img {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+}
+  
+.unset-img {
+    width: 80%;
+    padding: 10px;
+}
+
+.unset-img > div {
+    position: unset !important;
+}
 
 .projects{
     display: flex;
@@ -13,7 +25,6 @@
 .project{
     border: 1px rgb(182, 182, 182) solid;
     border-radius: 5px;
-
     background: rgb(27, 26, 26);
     color: rgb(233, 233, 233);
 }

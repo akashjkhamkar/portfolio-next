@@ -27,7 +27,7 @@ const Cover = () => {
                         priority={true}
                         width={1}
                         height={1}
-                        className="coverimg" src="/images/me2.png" alt="cover"/>
+                        className="coverimg" src="/images/insta.png" alt="cover"/>
                     </div>
                 </div>
             </div>

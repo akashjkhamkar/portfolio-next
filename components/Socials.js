@@ -21,7 +21,7 @@ const Socials = (props) => {
         height="20px"
         src="/images/mail.svg" alt="github" className="socialIcon"/>
         </a>
-        <a href="#">
+        <a href="/AkashKhamkar.pdf">
         <Image 
         width="20px"
         height="20px"

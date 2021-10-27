@@ -9,7 +9,7 @@ const Interests = () => {
                         layout="responsive"
                         width={500}
                         height={500}
-                        className="contentImg" src="/images/guitar.png" alt=""/>
+                        className="contentImg" src="/images/guitar.png" alt="guitars"/>
                 </div>
             </div>
             <div className="contentdiv">

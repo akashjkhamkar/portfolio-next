@@ -9,7 +9,7 @@ const History = () => {
                         layout="responsive"
                         width={500}
                         height={500}
-                        className="contentImg" src="/images/about1.jpeg" alt=""/>
+                        className="contentImg" src="/images/about1.jpeg" alt="about me"/>
                 </div>
             </div>
             <div className="contentdiv">

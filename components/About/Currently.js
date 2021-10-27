@@ -31,7 +31,7 @@ const Currently = () => {
                     layout="responsive"
                     width={500}
                     height={500}
-                    className="contentImg" src="/images/road.png" alt=""/>
+                    className="contentImg" src="/images/road.png" alt="currently"/>
                 </div>
             </div>
         </div>

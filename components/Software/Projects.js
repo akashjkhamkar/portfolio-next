@@ -91,7 +91,7 @@ const Entry = ({entry}) => {
                 <div className="unset-img">
                     <Image
                     layout="fill"
-                    className="contentImg custom-img" src={img} alt=""/>
+                    className="contentImg custom-img" src={img} alt={heading}/>
                 </div>
             </div>
         </div>

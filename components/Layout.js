@@ -12,6 +12,7 @@ const Layout = ({children}) => {
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="author" content="Akash Khamkar" />
           <meta name="copyright" content="Akash Khamkar" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
 
           {/* <!-- HTML Meta Tags --> */}
           <title>Akash Khamkar</title>

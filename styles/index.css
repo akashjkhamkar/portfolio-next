@@ -1,6 +1,7 @@
 @font-face {
     font-family: "et";
     src: url("./fonts/et-book-bold-line-figures.ttf");
+    font-display: swap;
 }
 
 *{

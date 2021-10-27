@@ -9,7 +9,7 @@ const Socials = (props) => {
         height="20px"
         src="/images/github.svg" alt="github" className="socialIcon"/>
         </a>
-        <a href="https://www.linkedin.com/in/akash-khamkar-378518191/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/akashjkhamkar/" target="_blank" rel="noreferrer">
         <Image 
         width="20px"
         height="20px" 

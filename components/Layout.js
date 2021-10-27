@@ -6,7 +6,6 @@ const Layout = ({children}) => {
     return (
       <>
         <Head>
-          <html lang="en" />
           <meta name="robots" content="all" />
           <title>Akash Khamkar | Fullstack Web Developer</title>
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png"/>
@@ -21,7 +20,6 @@ const Layout = ({children}) => {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
           {/* <!-- HTML Meta Tags --> */}
-          <title>Akash Khamkar</title>
           <meta name="description" content="Hi I am Akash, I am Software Developer. This is my portfolio website. Here you can find updates related to me, my projects and blogs. "/>
 
           {/* <!-- Facebook Meta Tags --> */}

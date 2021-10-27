@@ -1,9 +1,14 @@
-import Layout from "/components/Layout.js"
 import About from "/components/About/About";
+import Head from "next/head";
 
 const Home = () => {
   return (
-    <About/>
+    <>
+      <Head>
+        <link rel="canonical" href="https://akashkhamkar.in/" />
+      </Head>
+      <About/>
+    </>
   )
 }
 

@@ -6,6 +6,7 @@ const Layout = ({children}) => {
     return (
       <>
         <Head>
+          <html lang="en" />
           <meta name="robots" content="all" />
           <title>Akash Khamkar | Fullstack Web Developer</title>
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png"/>

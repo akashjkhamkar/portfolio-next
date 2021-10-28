@@ -20,7 +20,7 @@ const Layout = ({children}) => {
           <meta name="copyright" content="Akash Khamkar" />
 
           {/* <!-- HTML Meta Tags --> */}
-          <meta name="description" content="Hi I am Akash, I am Software Developer. This is my portfolio website. Here you can find updates related to me, my projects and blogs. "/>
+          <meta name="description" content="Hi I am Akash, I am a Software Developer. This is my portfolio website. Here you can find updates related to me, my projects and blogs. "/>
 
           {/* <!-- Facebook Meta Tags --> */}
           <meta property="og:url" content="https://akashkhamkar.in/"/>

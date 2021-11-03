@@ -29,9 +29,9 @@ const Projects = () => {
         {
             id: 2,
             heading: "Flack - A chat app with temporary chatrooms",
-            sub: "One of my first fullstack apps. Made with flask and vanilla js.",
+            sub: "One of my first fullstack apps. Made with flask, socket.io and vanilla js.",
             img: flackimg,
-            link: "https://github.com/akashjkhamkar/NoteArc",
+            link: "https://github.com/akashjkhamkar/Flack",
             linktext: "github"
         },
         {
@@ -96,11 +96,19 @@ const Entry = ({entry}) => {
                 </div>
             </div>
 
-            <div className="contentdiv">
-                <div className="unset-img">
+            <div className="contentdiv projectImgDiv">
+                {/* <div className="unset-img">
                     <Image
                     layout="fill"
                     className="contentImg custom-img" src={img} alt={heading}/>
+                </div> */}
+                <div className="projectimgHolderDiv" style={{position:"relative", "width": "60%" }}>
+                    <Image 
+                    layout="responsive"
+                    width={300}
+                    height={200}
+                    src={img}
+                    alt="project image"/>
                 </div>
             </div>
         </div>

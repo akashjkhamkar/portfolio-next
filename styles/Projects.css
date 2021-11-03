@@ -23,15 +23,28 @@
     gap: 30px;
 }
 
+.projectImgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectimgHolderDiv{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .softwareinvite > a {
     color: rgb(0, 175, 93);
     text-decoration: underline;
 }
 
-
 .project{
     border: 1px rgb(182, 182, 182) solid;
     border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     /* background: rgb(27, 26, 26);
     color: rgb(233, 233, 233); */
 }

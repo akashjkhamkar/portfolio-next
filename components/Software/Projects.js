@@ -37,7 +37,7 @@ const Projects = () => {
         {
             id: 3,
             heading: "NoteArc - a minimalistic guitar tuner android app",
-            sub: "For audio processing, i used TarsosDSP, and material ui for theming.",
+            sub: "For audio processing, I used TarsosDSP, and material ui for theming.",
             img: notearcimg,
             link: "https://github.com/akashjkhamkar/NoteArc",
             linktext: "github"
@@ -45,7 +45,7 @@ const Projects = () => {
         {
             id: 4,
             heading: "Book review website",
-            sub: "A site made for reviewing books. It is one of the first fullstack apps that I have made. It was done as submission for harvards cs50. I used flask for backend , sql for storing all the books and user reviews and comments. Frontend was made using vanilla js and some bootstrap",
+            sub: "A site made for reviewing and discussing books. It was done as submission for harvards cs50. I used flask for backend , sql for storing all the books and user reviews and comments. Frontend was made using vanilla js and some bootstrap",
             img: bookreview,
             link: "https://bookd-project1.herokuapp.com/",
             linktext: "live version"

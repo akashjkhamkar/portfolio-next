@@ -13,7 +13,7 @@ const Stack = () => {
         {
             id: 2,
             name: "Other",
-            list: ["Linux", "Git", "SQL", "Material Ui", "Bootstrap", "SEO", "Android", "Figma"]
+            list: ["Linux", "Git", "Material Ui", "Bootstrap", "SEO"]
         },
         {
             id: 3,

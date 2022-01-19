@@ -3,12 +3,12 @@ const Stack = () => {
         {
             id: 0,
             name: "Languages",
-            list: ["Javascript", "Java", "Python"]
+            list: ["Javascript", "Java", "Python", "C", "C++"]
         },
         {
             id: 1,
             name: "Frameworks",
-            list: ["React & Redux", "Next.js", "Express", "Node.js", "Flask", "Mongoose (mongodb)"]
+            list: ["Node.js", "Express", "React & Redux", "Next.js", "Flask", "Mongodb", "PSQL"]
         },
         {
             id: 2,
